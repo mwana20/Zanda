@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <filter id="subtleDrop" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <g id="zanda-mark" filter="url(#subtleDrop)">
+    <!-- 1. ROOF SHINGLES ON TOP OF THE "Z" -->
+    <!-- Gable Apex & Roof Peak -->
+    <path d="M 250 35 L 340 100 L 320 100 L 250 48 L 180 100 L 160 100 Z" fill="#2B2D31" />
+    <!-- Layered Shingles Sloping Left -->
+    <polygon points="250,45 160,105 145,95 240,32" fill="#1C1E22" />
+    <polygon points="230,58 140,118 125,108 220,48" fill="#26282D" />
+    <polygon points="210,72 120,132 105,122 200,62" fill="#18191D" />
+    <polygon points="190,85 100,145 85,135 180,75" fill="#2E3036" />
+    
+    <!-- Top Horizontal Bar of the "Z" (Black body under roof) -->
+    <path d="M 120 135 L 340 135 L 305 165 L 145 165 Z" fill="#18191C" />
+
+    <!-- Drips Hanging from Top Bar (Left) -->
+    <!-- Drop 1 -->
+    <path d="M 148 165 C 148 180, 142 195, 142 205 C 142 212, 149 216, 154 212 C 158 208, 156 195, 156 165 Z" fill="#18191C" />
+    <!-- Drop 2 (longer) -->
+    <path d="M 168 165 C 168 185, 160 215, 160 235 C 160 244, 170 248, 175 242 C 180 236, 177 205, 177 165 Z" fill="#18191C" />
+    <circle cx="168" cy="254" r="4.5" fill="#18191C" />
+    <!-- Drop 3 -->
+    <path d="M 188 165 C 188 178, 184 190, 184 198 C 184 204, 192 206, 195 201 C 197 196, 195 180, 195 165 Z" fill="#18191C" />
+
+    <!-- 2. MAIN DIAGONAL OF THE "Z" -->
+    <!-- Black Side (Left half of diagonal) -->
+    <path d="M 305 165 L 120 340 L 165 375 L 340 165 Z" fill="#1C1E22" />
+
+    <!-- Red Accent & Red House Silhouette on Right -->
+    <!-- Red Gable Roof line over window -->
+    <path d="M 335 125 L 350 140 L 255 240 L 230 240 Z" fill="#D32F2F" />
+
+    <!-- House Gable Fill & Walls in crook of the Z -->
+    <path d="M 255 240 L 360 240 L 360 300 L 225 300 Z" fill="#FFFFFF" opacity="0.96" />
+    <path d="M 360 236 L 365 242 L 365 300 L 358 300 Z" fill="#E53935" />
+
+    <!-- 4-PANE RED WINDOW -->
+    <g id="window-panes">
+      <rect x="275" y="246" width="16" height="16" rx="2" fill="#E53935" />
+      <rect x="296" y="246" width="16" height="16" rx="2" fill="#E53935" />
+      <rect x="275" y="267" width="16" height="16" rx="2" fill="#E53935" />
+      <rect x="296" y="267" width="16" height="16" rx="2" fill="#E53935" />
+    </g>
+
+    <!-- Bottom Horizontal Bar of the "Z" (Red transition) -->
+    <path d="M 210 300 L 400 300 L 430 300 C 435 295, 438 290, 445 288 C 438 300, 415 315, 390 318 L 205 318 Z" fill="#E53935" />
+
+    <!-- 3. LIQUID DRIPS & SPLATTERS AT THE BASE -->
+    <!-- Left Black Dripping Splatters -->
+    <g id="black-drips">
+      <!-- Big left splatter wing -->
+      <path d="M 120 340 C 95 350, 75 365, 90 375 C 105 385, 115 365, 130 355 Z" fill="#18191C" />
+      <circle cx="70" cy="365" r="4" fill="#18191C" />
+      <circle cx="85" cy="385" r="3" fill="#18191C" />
+      <!-- Drip 1 -->
+      <path d="M 130 350 C 130 380, 120 405, 120 420 C 120 428, 130 432, 134 426 C 138 420, 136 385, 138 350 Z" fill="#18191C" />
+      <circle cx="127" cy="438" r="5" fill="#18191C" />
+      <!-- Drip 2 -->
+      <path d="M 152 360 C 152 385, 146 415, 146 435 C 146 444, 156 448, 160 442 C 164 436, 161 390, 161 360 Z" fill="#18191C" />
+      <!-- Drip 3 -->
+      <path d="M 175 355 C 175 380, 172 405, 172 418 C 172 425, 180 428, 184 422 C 187 416, 185 385, 185 355 Z" fill="#18191C" />
+      <circle cx="178" cy="436" r="3.5" fill="#18191C" />
+      <!-- Small splatters -->
+      <circle cx="110" cy="405" r="3" fill="#18191C" />
+      <circle cx="145" cy="455" r="3" fill="#18191C" />
+    </g>
+
+    <!-- Center Transition Splatter -->
+    <path d="M 195 330 L 225 330 C 220 370, 205 400, 205 425 C 205 433, 214 436, 218 430 C 222 424, 222 370, 225 330 Z" fill="#18191C" />
+
+    <!-- Right Red Dripping Splatters -->
+    <g id="red-drips">
+      <!-- Drip 1 (transition) -->
+      <path d="M 235 315 C 235 345, 230 380, 230 410 C 230 420, 240 425, 244 418 C 248 410, 244 350, 246 315 Z" fill="#D32F2F" />
+      <circle cx="237" cy="430" r="4.5" fill="#D32F2F" />
+      <!-- Drip 2 (Long prominent center-right drip) -->
+      <path d="M 260 315 C 260 360, 252 415, 252 445 C 252 458, 266 462, 272 452 C 278 442, 274 365, 274 315 Z" fill="#E53935" />
+      <circle cx="262" cy="470" r="5" fill="#E53935" />
+      <!-- Drip 3 -->
+      <path d="M 290 315 C 290 350, 285 390, 285 415 C 285 425, 295 430, 300 422 C 304 415, 301 355, 301 315 Z" fill="#E53935" />
+      <circle cx="292" cy="440" r="4" fill="#E53935" />
+      <!-- Drip 4 -->
+      <path d="M 320 315 C 320 345, 318 375, 318 395 C 318 405, 328 410, 332 402 C 336 395, 332 345, 332 315 Z" fill="#E53935" />
+      <circle cx="325" cy="418" r="3.5" fill="#E53935" />
+      <!-- Drip 5 -->
+      <path d="M 350 315 C 350 340, 348 365, 348 380 C 348 388, 356 392, 360 385 C 364 378, 361 340, 361 315 Z" fill="#E53935" />
+      <!-- Drip 6 (Far right) -->
+      <path d="M 378 315 C 378 335, 382 355, 382 368 C 382 375, 390 378, 394 372 C 397 365, 392 335, 392 315 Z" fill="#E53935" />
+      <!-- Right Splash Flares -->
+      <path d="M 390 315 C 415 305, 435 290, 442 275 C 445 285, 435 310, 410 325 Z" fill="#E53935" />
+      <circle cx="448" cy="272" r="4" fill="#E53935" />
+      <circle cx="438" cy="300" r="3.5" fill="#E53935" />
+      <circle cx="420" cy="335" r="4" fill="#E53935" />
+    </g>
+  </g>
+</svg>
