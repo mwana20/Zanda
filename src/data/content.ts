@@ -1,4 +1,7 @@
 import { ServiceItem, ProjectItem, GalleryPhoto, ColorSwatch, Testimonial } from '../types';
+import zandaPainterHero from '../assets/images/zanda_painter_hero_1791410279132.jpg';
+import zandaTeamAbout from '../assets/images/zanda_team_about_1791410293608.jpg';
+import zandaQuoteHero from '../assets/images/zanda_quote_hero_1791410306693.jpg';
 
 export const COMPANY_INFO = {
   name: 'Zanda Painting',
@@ -388,7 +391,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Professional Painter Transforming Living Room',
     category: 'color',
     categoryLabel: 'Color & Craft',
-    image: '/src/assets/images/zanda_painter_hero_1791410279132.jpg',
+    image: zandaPainterHero,
     caption: 'Master painter precision-rolling radiant amber ochre onto a high-ceiling living room wall.',
     location: 'Kololo, Kampala',
     aspect: 'wide',
@@ -428,7 +431,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Zanda Team On-Site Excellence',
     category: 'homes',
     categoryLabel: 'Homes',
-    image: '/src/assets/images/zanda_team_about_1791410293608.jpg',
+    image: zandaTeamAbout,
     caption: 'Our certified professional painting crew delivering flawless craftsmanship on a luxury villa.',
     location: 'Nakasero, Kampala',
     aspect: 'wide',
@@ -448,7 +451,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Precision Brush Cutting & Trimming',
     category: 'color',
     categoryLabel: 'Color & Craft',
-    image: '/src/assets/images/zanda_quote_hero_1791410306693.jpg',
+    image: zandaQuoteHero,
     caption: 'Razor-sharp cutting edge where ultramarine blue meets ceiling plaster with flawless line work.',
     location: 'Bugolobi, Kampala',
     aspect: 'square',
@@ -674,13 +677,13 @@ export const OUR_PROCESS_STEPS = [
     step: '03',
     title: 'PREPARATION',
     description: 'Great painting is 80% preparation. We mask floors and furniture, fill cracks, scrape old flaking coats, and apply specialized anti-damp primers.',
-    image: '/src/assets/images/zanda_quote_hero_1791410306693.jpg',
+    image: zandaQuoteHero,
   },
   {
     step: '04',
     title: 'TRANSFORMATION',
     description: 'Our certified master painters apply premium multi-coat finishes with surgical precision, followed by a final walkthrough and pristine cleanup.',
-    image: '/src/assets/images/zanda_painter_hero_1791410279132.jpg',
+    image: zandaPainterHero,
   },
 ];
 

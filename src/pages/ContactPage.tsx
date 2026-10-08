@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { QuoteFormData } from '../types';
 import { COMPANY_INFO } from '../data/content';
+import zandaQuoteHero from '../assets/images/zanda_quote_hero_1791410306693.jpg';
 import {
   MapPin,
   Phone,
@@ -93,7 +94,7 @@ Message: ${formData.message}`;
       <section className="relative min-h-[50vh] sm:min-h-[60vh] flex items-center justify-center py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/zanda_quote_hero_1791410306693.jpg"
+            src={zandaQuoteHero}
             alt="Painter applying final coat to wall"
             className="w-full h-full object-cover object-center filter brightness-[0.9]"
           />

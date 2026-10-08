@@ -1,6 +1,7 @@
 import React from 'react';
 import { PageId } from '../types';
 import { BRAND_VALUES, OUR_PROCESS_STEPS, COMPANY_INFO } from '../data/content';
+import zandaTeamAbout from '../assets/images/zanda_team_about_1791410293608.jpg';
 import {
   Sparkles,
   MapPin,
@@ -27,7 +28,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
         {/* Hero Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/zanda_team_about_1791410293608.jpg"
+            src={zandaTeamAbout}
             alt="Professional Zanda Painting team working on a property in Kampala"
             className="w-full h-full object-cover object-center filter brightness-[0.9]"
           />

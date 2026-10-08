@@ -2,6 +2,7 @@ import React from 'react';
 import { PageId, ProjectItem } from '../types';
 import { BeforeAfterSlider } from '../components/BeforeAfterSlider';
 import { ColorSwatchViewer } from '../components/ColorSwatchViewer';
+import zandaPainterHero from '../assets/images/zanda_painter_hero_1791410279132.jpg';
 import {
   SERVICES_LIST,
   PROJECTS_LIST,
@@ -45,7 +46,7 @@ export const HomePage: React.FC<HomePageProps> = ({
         {/* Full-screen Hero Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/zanda_painter_hero_1791410279132.jpg"
+            src={zandaPainterHero}
             alt="Professional Zanda painter transforming a Kampala luxury interior"
             className="w-full h-full object-cover object-center filter brightness-[0.88] contrast-[1.05]"
           />
